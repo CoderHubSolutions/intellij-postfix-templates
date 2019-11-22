@@ -1,0 +1,4 @@
+## Templates for android.view.View ##
+
+.find : find
+        ANY [android.view.View]  →  $expr$ = findViewById(R.id$arg$);
